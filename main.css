@@ -1,0 +1,29 @@
+.chat {
+  display: grid;
+  height: 100%;
+  grid-gap: 5px;
+  grid-template-areas: "h h" "u m" "f f";
+  grid-template-columns: minmax(auto, 200px) 1fr;
+  grid-template-rows: minmax(50px, auto) 1fr minmax(100px, auto); }
+  .chat__header {
+    grid-area: h;
+    background-color: #ffdede; }
+  .chat__members {
+    grid-area: u;
+    background-color: #ffecd1; }
+  .chat__messages {
+    grid-area: m;
+    background-color: #dedeff; }
+  .chat__footer {
+    grid-area: f;
+    background-color: #deffde; }
+
+
+
+
+
+body {
+  color: #333; }
+
+
+/*# sourceMappingURL=main.css.map*/
