@@ -1,0 +1,15 @@
+include ../components/header/header
+include ../components/members/members
+include ../components/messages/messages
+include ../components/footer/footer
+
+mixin chat({header,members,messages,footer})
+    .chat
+        .chat__header
+            +header(header)
+        .chat__members
+            +members(members)
+        .chat__messages
+            +messages(messages)
+        .chat__footer
+            +footer(footer)

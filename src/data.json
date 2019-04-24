@@ -1,0 +1,257 @@
+{
+    "percentages" : {
+        "header" : "percentages / pie chart",
+        "values" : [0,38,62,89],
+        "uisectors" : {
+            "sectors" : [
+                { "#747474" : 10},
+                { "#e75735" : 25},
+                { "#4eb7a8" : 30}
+            ],
+            "size" : 115
+        }
+    },
+    "sliders" : {
+        "header" : "sliders",
+        "sliders" : [
+            {
+                "min" : 0, 
+                "max" : 100, 
+                "value1" : 20, 
+                "value2" : 40, 
+                "step" : 1, 
+                "intervals" : 3, 
+                "hint" : "true", 
+                "scale" : "", 
+                "interval" : "", 
+                "vertical" : "", 
+                "length" : 260, 
+                "lineHeight" : 5, 
+                "pointSize" : 20, 
+                "colorLine" : "#e6e6e6", 
+                "colorRange" : "#e6e6e6", 
+                "colorPoint" : "#e75735", 
+                "colorScale" : "lightgrey", 
+                "colorText" : "white"
+            },
+            {
+                "min" : 0, 
+                "max" : 100, 
+                "value1" : 0, 
+                "value2" : 75, 
+                "step" : 25, 
+                "intervals" : 4, 
+                "hint" : "", 
+                "scale" : "true", 
+                "interval" : "", 
+                "vertical" : "", 
+                "length" : 260, 
+                "lineHeight" : 5, 
+                "pointSize" : 20, 
+                "colorLine" : "#e6e6e6", 
+                "colorRange" : "#4eb7a8", 
+                "colorPoint" : "#4eb7a8", 
+                "colorScale" : "lightgrey", 
+                "colorText" : "white"
+            }
+        ]
+    },
+    "stages" : {
+        "header" : "stages",
+        "steps" : 5,
+        "passed" : 3
+    },
+    "forms" : {
+        "header" : "form elements",
+        "inputs" : [
+            {
+                "placeholder" : "Your Name", 
+                "reg" : "username",
+                "success" : "THANKS!",
+                "error" : "ERROR"
+            },
+            {
+                "placeholder" : "Your Email", 
+                "reg" : "email",
+                "success" : "THANKS!",
+                "error" : "WRONG"
+            }
+        ],
+        "textarea" : {
+            "placeholder" : "Your Message",
+            "cols" : "30",
+            "rows" : "4"
+        },
+        "toggles" : {
+            "header" : "toggles",
+            "left" : false,
+            "right" : true
+        },
+        "ticks" : {
+            "header" : "tick boxes",
+            "left" : "true",
+            "right" : ""
+        }
+    },
+    "searches" : {
+        "header" : "search / drop down",
+        "searches" : [
+            {
+                "placeholder" : "Search",
+                "error" : "I've not found what I'm looking for..."
+            },
+            {
+                "placeholder" : "Another search",
+                "error" : "I've not found too..."
+            }
+        ],
+        "dropdown" : {
+            "placeholder" : "Choose An Option",
+            "options" : ["This is option 1","This is option 2","This is option 3","This is option 4"]
+        }
+    },
+    "profiles" : {
+        "header" : "user profile",
+        "cards" : [
+            {
+                "img" : "john",
+                "name" : "John Smith",
+                "prof" : "ux designer",
+                "color" : "",
+                "a1" : "",
+                "a2" : "",
+                "a3" : ""
+            },
+            {
+                "img" : "sarah",
+                "name" : "Sarah Brown",
+                "prof" : "developer",
+                "color" : "green",
+                "a1" : "",
+                "a2" : "",
+                "a3" : ""
+            }
+        ]
+    },
+    "newsEventsRow" : {
+        "header" : "news & events",
+        "news" : {
+            "header" : "It's all going downhill",
+            "date" : "24 august 2013",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum aliquet venenatis. Etiam a nisi nunc, a tincidunt eros.",
+            "img" : "velo",
+            "href" : ""
+        },
+        "event" : {
+            "header" : "this is the title",
+            "date" : "24",
+            "month" : "Aug",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "img" : "city"
+        }
+    },
+    "location" : {
+        "header" : "location",
+        "lat" : 37.791235,
+        "lng" : -122.414842
+    },
+    "calendar" : {
+        "header" : "calendar",
+        "date" : "24",
+        "month" : "09",
+        "year" : "2016"
+    },
+    "messaging" : {
+        "header" : "messaging",
+        "user" : "Sarah Brown",
+        "img" : "sarah",
+        "message" : "Hey! So are we cool to meet at the art gallery? Say 8pm",
+        "placeholder" : "Yeah that sounds great. See you then."
+    },
+    "videoRow" : {
+        "header" : "video",
+        "video" : "62980495"
+    },
+    "arrowButtons" : {
+        "header" : "arrow buttons",
+        "buttons" : [
+            {
+                "label" : "keyboard_arrow_left",
+                "view" : []
+            },
+            {
+                "label" : "keyboard_arrow_right",
+                "view" : []
+            },
+            {
+                "label" : "keyboard_arrow_left",
+                "view" : ["disabled"]
+            },
+            {
+                "label" : "keyboard_arrow_right",
+                "view" : ["disabled"]
+            },
+            {
+                "label" : "keyboard_arrow_left",
+                "view" : []
+            },
+            {
+                "label" : "keyboard_arrow_right",
+                "view" : []
+            }
+        ]
+    },
+    "buttons" : {
+        "header" : "standard buttons",
+        "buttons" : [
+            [{
+                "label" : "button",
+                "view" : ["theme_green", "small"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_green"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_red"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_red", "small"]
+            }],
+            [{
+                "label" : "button",
+                "view" : ["theme_green", "small"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_green"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_red"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_red", "small"]
+            }],
+            [{
+                "label" : "button",
+                "view" : ["theme_green", "small"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_green"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_red"]
+            },
+            {
+                "label" : "button",
+                "view" : ["theme_red", "small"]
+            }]
+        ]
+    }
+}
