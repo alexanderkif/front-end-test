@@ -1,3 +1,9 @@
 
 .footer {
+    padding: 1rem;
+
+    &__input {
+        width: max-content;
+        height: max-content;
+    }
 }

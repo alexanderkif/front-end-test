@@ -1,3 +1,9 @@
 
 mixin messages(messages)
-    .messages messages
+    .messages
+        .messages__list
+            each message in messages
+                .messages__item
+                    .messages__message
+                        .messages__user(style=`background-color: ${message.color}`)= message.user
+                        .messages__text(style=`background-color: ${message.color}`)= message.text

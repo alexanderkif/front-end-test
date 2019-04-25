@@ -1,3 +1,7 @@
 
 mixin members(members)
-    .members members
+    .members
+        .members__list
+            each member in members
+                .members__item
+                    .members__user(style=`background-color: ${member.color}`)= member.user
