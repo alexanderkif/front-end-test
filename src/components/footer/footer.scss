@@ -1,9 +1,31 @@
 
 .footer {
     padding: 1rem;
+    flex: 1;
+    display: flex;
 
     &__input {
-        width: max-content;
-        height: max-content;
+        flex: 1;
+        border-radius: 0.3rem;
+        border: 0.1rem solid lightgreen;
+        resize: none;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        outline: none;
+
+        &::-webkit-scrollbar {
+            width: 0.75rem;
+            background-color: inherit;
+        }
+
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 0.3rem rgba(0,0,0,0.3);
+            border-radius: inherit;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(0,0,0,0.15);
+            border-radius: inherit;
+        }
     }
 }
