@@ -14,9 +14,7 @@
     background-color: #ffe8e8;
     border: 0.1rem solid #ffdede;
     border-radius: 0.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    padding: 0.2rem 0.5rem; }
   .chat__members {
     grid-area: u;
     background-color: #fff6e5;
@@ -86,7 +84,7 @@
 .members__list {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 1rem; }
 
 .members__item {
