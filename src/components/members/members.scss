@@ -1,9 +1,10 @@
 
 .members {
+    
     &__list {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-start;
         padding: 1rem;
     }
 
